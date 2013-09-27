@@ -62,4 +62,4 @@ File.open(options[:template_file], 'r') do |template_file|
   end
 end
 
-puts "#{options[:manifest_path]}/index.html"
+puts "#{options[:manifest_path]}/#{output_file_name}"
